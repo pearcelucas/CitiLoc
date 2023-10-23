@@ -52,12 +52,13 @@ export const ItemLista = styled(Link)`
 
 export const SwipeSlide = styled(SwiperSlide)`
 
+
     
 `
 
 export const ImagemSlider = styled.img`
     width: 100%;
-    max-height: 500px;
+    max-height: 30vw;
   
 `
 

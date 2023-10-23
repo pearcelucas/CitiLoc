@@ -1,11 +1,13 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import imagem1 from "../images/182178541804722.jpg";
-import imagem2 from "../images/aluguel-projetor-datashow-sp-para-eventos-visual-imagem.jpg";
-import imagem3 from "../images/estrutura-tubular-11.jpeg";
-import imagem5 from "../images/images (1).jpeg";
-import imagem6 from "../images/images.jpeg";
-import imagem7 from "../images/images (2).jpeg";
+import imagem1 from "../images/BackDrop.jpeg";
+import imagem2 from "../images/Bar.jpeg";
+import imagem3 from "../images/Castelao.jpeg";
+import imagem5 from "../images/Estrutura Metalica.jpeg";
+import imagem6 from "../images/Palco.jpeg";
+import imagem7 from "../images/Portico.jpeg";
+import imagem8 from "../images/Tenda.jpeg";
+import imagem9 from "../images/Unifila.jpeg";
 import { ImagemSlider } from "../pages/styles";
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css/navigation';
@@ -20,13 +22,13 @@ export const Slide = () => {
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
       spaceBetween={0}
-      slidesPerView={3}
+      slidesPerView={4}
       autoplay={{ delay: 1500 }}
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+      
+      
     >
       <SwiperSlide>
         <ImagemSlider src={imagem1} alt="Imagem 1" />
@@ -45,6 +47,12 @@ export const Slide = () => {
       </SwiperSlide>
       <SwiperSlide>
         <ImagemSlider src={imagem7} alt="Imagem 7" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ImagemSlider src={imagem8} alt="Imagem 8" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ImagemSlider src={imagem9} alt="Imagem 9" />
       </SwiperSlide>
     </Swiper>
   )
