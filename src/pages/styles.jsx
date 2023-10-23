@@ -216,6 +216,8 @@ margin-top: 10%;
 export const Telefone = styled.div`
 display: flex;
 margin-top: 10%;
+align-items: center;
+
     
 `
 export const Email = styled.div`
@@ -258,16 +260,36 @@ export const ImgItem = styled.img`
 `
 
 export const FaleConosco = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: #dfe2f5;
     width: 40%;
+    padding-left: 1%;
+    padding-bottom: 10%;
+    
 
 `
 
 export const ContatosMapa = styled.div`
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
+   display: flex;
+   margin-left: 10%;
+   margin-right : 10% ;
+   justify-content: space-between;
+   background-color: #dfe2f5;
+   `
 
-`
+   export const ImgContatos = styled.img`
+    width: 10%;
+   `
+   export const TextoContatos = styled.p`
+    font-size: 2vw;
+    align-self: center;
+   `
 
-
+  export const LinkContatos = styled(Link)`
+    text-decoration: none;
+    color: black;
+    align-self: center;
+    font-size: 2vw;
+  `
