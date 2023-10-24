@@ -1,7 +1,7 @@
 import { Whats } from "../components/BotaoWhatsapp"
 import { Mapa } from "../components/Mapa"
 import { NavRodape } from "../components/NavRodape"
-import { ContatosMapa, Email, FaleConosco, ImgContatos, LinkContatos, Secao, Subtitulo, Telefone, TextoContatos, Titulo, WhatsAppContatos } from "./styles"
+import { ContatosMapa, Email, FaleConosco, ImgContatos, LinkContatos, MapContainer, Secao, Subtitulo, Telefone, TextoContatos, Titulo, WhatsAppContatos } from "./styles"
 import telefone from "../images/telefoneAzul.png"
 import email from "../images/gmail.png"
 import instagram from "../images/instagram.png"
@@ -28,7 +28,9 @@ export const Contatos = () => {
                         <LinkContatos to="https://www.instagram.com/citiloc"> @CitiLoc</LinkContatos>
                     </Telefone>
                 </FaleConosco>
+                <MapContainer>
                 <Mapa />
+                </MapContainer>
             </ContatosMapa>
             <Whats />
             <NavRodape />

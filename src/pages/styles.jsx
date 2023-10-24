@@ -16,8 +16,11 @@ font-size: 3vw;
 `
 
 export const Subtitulo = styled.h2`
-    font-size: 1.5vw;
+    font-size: 3vw;
     background-color: #dfe2f5;
+    padding-top: 1%;
+    padding-left: 1%;
+    
 
 
 `
@@ -103,24 +106,29 @@ export const Card = styled.div`
     background-color: #dfe2f5;
     width: 30%;
     border-radius: 15px;
-    padding: 20px;
+    padding: 2%;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 `
 
 export const TituloCard = styled.h2`
     color: #004bae;
-    font-size: 24px;
-    margin: 20px 0;
+    font-size: 3vw;
+    text-align: center;
+    height: 20%;
+    
+    
+    
 `
 
 export const ImagemCard = styled.img`
     max-width: 100%;
-    border-radius: 15px;
+    height: 50%;
+    
 `
 
 export const DescricaoCard = styled.p`
-    font-size: 16px;
-    line-height: 1.3;
+    height: 30%;
+    font-size: 1.5vw;
     text-align: center;
     color: #004bae;
 `
@@ -135,15 +143,23 @@ align-items: center;
 export const Botao = styled(Link)`
 margin-top: 2%;
 margin-bottom: 2%;
-width: 20%;
+width: 20vw;
 background-color: #dfe2f5;
 border-radius: 15px;
-padding: 20px;
+padding: 2%;
 text-align: center;
 text-decoration: none;
 color: #004bae;
 box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+font-size: 3vw;
 
+@media screen and (max-width: 768px){
+        width: 20vw;
+        height: 3vw;
+        font-size: 3vw;
+        padding: 2%;
+        
+    }
 `
 
 export const Whatsapp = styled.img`
@@ -159,9 +175,8 @@ right: 1%;
 
 @media screen and (max-width: 768px){
         width: 10%;
-        
+       
     }
-
 
 `
 
@@ -171,7 +186,7 @@ export const Rodape = styled.footer`
     display: flex;
     color: white;
     padding-bottom: 1%;
-    
+ 
     
 `
 
@@ -309,9 +324,10 @@ export const Secao = styled.h2`
 color: black;
 background-color: #dfe2f5;
 padding: 2%;
-font-size: 3vw;
+font-size: 3.5vw;
 margin-left: 10%;
 margin-right: 10%;
+
 
 `
 
@@ -323,7 +339,7 @@ border: 1px solid black;
 
 @media screen and (max-width: 768px){
         flex-direction: column;
-        
+            
     }
 
     
@@ -332,16 +348,37 @@ border: 1px solid black;
 export const ItemDescricao = styled.div`
 background-color: #dfe2f5;
 width: 60%;
-padding-left: 5%;
-padding-top: 5%;
-    
+padding: 5%;
+font-size: 2vw;
+ 
+@media screen and (max-width: 768px){
+        height:30%;
+        width: 90%;
+    }
+
 `
 
 export const ImgItem = styled.img`
     width: 30%;
     padding-right: 5%;
     padding-left: 5%;
+    @media screen and (max-width: 768px){
+        align-self: center;
+        height:40%;
+    }
     
+
+` 
+    
+export const ImgEventos = styled.img`
+    width: 30%;
+    padding-right: 5%;
+    padding-left: 5%;
+    @media screen and (min-width: 768px){
+        display: none;
+        
+    }
+
     
 `
 
@@ -361,8 +398,15 @@ export const ContatosMapa = styled.div`
    display: flex;
    margin-left: 10%;
    margin-right : 10% ;
-   justify-content: space-between;
+   justify-content: center;
    background-color: #dfe2f5;
+   
+   @media screen and (max-width: 768px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
    `
 
    export const ImgContatos = styled.img`
@@ -379,3 +423,21 @@ export const ContatosMapa = styled.div`
     align-self: center;
     font-size: 2vw;
   `
+    export const DivSlide = styled.div`
+        width: 50%;
+
+
+        @media screen and (max-width: 768px){
+        display:none;
+        
+    }
+
+    `
+
+    export const MapContainer = styled.div`
+        width: 50%;
+           @media screen and (max-width: 768px){
+        overflow: hidden ;
+
+    }
+    `

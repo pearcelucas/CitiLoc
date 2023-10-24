@@ -1,4 +1,4 @@
-import { ImgItem, Item, ItemDescricao, Secao, Subtitulo, } from "./styles"
+import { DivSlide, ImgEventos, ImgItem, Item, ItemDescricao, Secao, Subtitulo, } from "./styles"
 import { Slide } from "../components/slider"
 import { NavRodape } from "../components/NavRodape"
 import { Whats } from "../components/BotaoWhatsapp"
@@ -13,50 +13,68 @@ export const Eventos = () => {
         <>
             <Secao>Eventos</Secao>
             <Item>
-                <ImgItem src={evento1}/>
+                <DivSlide>
+                    <Slide />
+                </DivSlide>
+                <ImgEventos src={evento1} />
                 <ItemDescricao>
                     <Subtitulo>Evento1</Subtitulo>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
                 </ItemDescricao>
             </Item>
             <Item>
-                <ImgItem src={evento2}/>
+                <DivSlide>
+                    <Slide />
+                </DivSlide>
+                <ImgEventos src={evento2} />
                 <ItemDescricao>
                     <Subtitulo>Evento1</Subtitulo>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
                 </ItemDescricao>
             </Item>
             <Item>
-                <ImgItem src={evento3}/>
+                <DivSlide>
+                    <Slide />
+                </DivSlide>
+                <ImgEventos src={evento3} />
                 <ItemDescricao>
                     <Subtitulo>Evento1</Subtitulo>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
                 </ItemDescricao>
             </Item>
             <Item>
-                <ImgItem src={evento1}/>
+                <DivSlide>
+                    <Slide />
+                </DivSlide>
+                <ImgEventos src={evento1} />
                 <ItemDescricao>
                     <Subtitulo>Evento1</Subtitulo>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
                 </ItemDescricao>
             </Item>
             <Item>
-                <ImgItem src={evento1}/>
+                <DivSlide>
+                    <Slide />
+                </DivSlide>
+                <ImgEventos src={evento1} />
                 <ItemDescricao>
                     <Subtitulo>Evento1</Subtitulo>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
                 </ItemDescricao>
             </Item>
             <Item>
-                <ImgItem src={evento1}/>
+                <DivSlide>
+                    <Slide />
+                </DivSlide>
+                <ImgEventos src={evento1} />
                 <ItemDescricao>
                     <Subtitulo>Evento1</Subtitulo>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
                 </ItemDescricao>
             </Item>
-            
-            <Whats/>
-            <NavRodape/>
+
+            <Whats />
+            <NavRodape />
 
         </>
     )
