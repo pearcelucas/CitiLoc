@@ -27,7 +27,7 @@ export const Slide = () => {
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      
+        
       
     >
       <SwiperSlide>

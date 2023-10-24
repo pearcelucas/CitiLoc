@@ -44,7 +44,7 @@ export const NavRodape = () => {
                     <TituloRodape>Contatos e endereço</TituloRodape>
                     <Divisoria/>
                     <Endereco>
-                        <ImgRodape src={endereco} />
+                        {/* <ImgRodape src={endereco} /> */}
                         <p>Rua Lorem Ipsum, 1234</p>
                     </Endereco>
                     <EnderecoTexto>Fortaleza/CE</EnderecoTexto>

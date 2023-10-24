@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { styled } from "styled-components";
-import { SwiperSlide } from "swiper/react";
+
 
 export const Container = styled.div`
     background-color: white;
@@ -77,16 +77,12 @@ export const ItemLista = styled(Link)`
     }
 `
 
-export const SwipeSlide = styled(SwiperSlide)`
-
-
-    
-`
 
 export const ImagemSlider = styled.img`
     width: 100%;
     max-height: 30vw;
-  
+
+    
 `
 
 export const Cards = styled.div`
@@ -160,6 +156,13 @@ position: fixed;
 z-index: 3;
 bottom: 5%;
 right: 1%;
+
+@media screen and (max-width: 768px){
+        width: 10%;
+        
+    }
+
+
 `
 
 export const Rodape = styled.footer`
@@ -317,6 +320,12 @@ display: flex;
 justify-content: center;
 margin: 5% 10%;
 border: 1px solid black;
+
+@media screen and (max-width: 768px){
+        flex-direction: column;
+        
+    }
+
     
 `
 
@@ -332,6 +341,7 @@ export const ImgItem = styled.img`
     width: 30%;
     padding-right: 5%;
     padding-left: 5%;
+    
     
 `
 
