@@ -262,6 +262,18 @@ export const EnderecoTexto = styled.p`
         
     }
 `
+export const LinkRodape = styled(Link)`
+     @media screen and (max-width: 768px){
+        font-size: 2vw;
+        
+    }
+`
+export const ImgRodape = styled.img`
+     @media screen and (max-width: 768px){
+        width: 2vw;
+        
+    }
+`
 
 export const ContatosEndereco = styled.div`
 

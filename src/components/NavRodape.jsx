@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { ContatosEndereco, Divisoria, Email, Endereco, EnderecoTexto, ImgLogo, ItemLista2, Lista2, MenuRapido, Rodape, Sobre, Telefone, TituloRodape } from "../pages/styles"
+import { ContatosEndereco, Divisoria, Email, Endereco, EnderecoTexto, ImgLogo, ImgRodape, ItemLista2, LinkRodape, Lista2, MenuRapido, Rodape, Sobre, Telefone, TituloRodape } from "../pages/styles"
 import logo from "../images/Logo.png"
 import endereco from "../images/pin-de-localizacao.png"
 import telefone from "../images/telefone.png"
@@ -44,19 +44,19 @@ export const NavRodape = () => {
                     <TituloRodape>Contatos e endereço</TituloRodape>
                     <Divisoria/>
                     <Endereco>
-                        <img src={endereco} />
+                        <ImgRodape src={endereco} />
                         <p>Rua Lorem Ipsum, 1234</p>
                     </Endereco>
                     <EnderecoTexto>Fortaleza/CE</EnderecoTexto>
                     <EnderecoTexto>Cep: 60123-456</EnderecoTexto>
-                    <Link to="https://maps.app.goo.gl/xLcgvBs6z8nvh8y78">Ver no mapa</Link>
+                    <LinkRodape to="https://maps.app.goo.gl/xLcgvBs6z8nvh8y78">Ver no mapa</LinkRodape>
                     <Telefone>
-                        <img src={telefone} />
+                        <ImgRodape src={telefone} />
                         <p>(85) 9999-9999</p>
                     </Telefone>
-                    <Link to="https://wa.link/y270z1">abrir whatsapp</Link>
+                    <LinkRodape to="https://wa.link/y270z1">abrir whatsapp</LinkRodape>
                     <Email>
-                        <img src={email} />
+                        <ImgRodape src={email} />
                         <EnderecoTexto>citiloc@email.com.br</EnderecoTexto>
                     </Email>
                 </ContatosEndereco>
