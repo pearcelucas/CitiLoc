@@ -1,4 +1,4 @@
-import { ItemLista, Lista, Navegacao } from "../pages/styles"
+import { ImgLogo, ItemLista, Lista, Navegacao } from "../pages/styles"
 import { createGlobalStyle } from "styled-components"
 import logo from "../images/Logo.png"
 
@@ -52,7 +52,7 @@ export const Menu = () =>{
     return(
         <>
          <Navegacao>
-            <img src={logo}/>
+            <ImgLogo src={logo}/>
             <Lista>
                 <li>
                     <ItemLista to="/">Home</ItemLista>

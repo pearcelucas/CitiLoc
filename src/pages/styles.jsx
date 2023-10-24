@@ -25,10 +25,26 @@ export const Subtitulo = styled.h2`
 export const Navegacao = styled.nav`
     width: 100%;
     background-color: black;
-   
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+              
+    }
     
+`
+
+export const ImgLogo = styled.img`
+    
+    @media screen and (max-width: 768px){
+        width: 30vw;
+        align-self: center;
+
+    }
+
 `
 
 export const Lista = styled.ul`
@@ -37,6 +53,12 @@ export const Lista = styled.ul`
     padding-bottom: 1vw;
     gap: 30px;
     list-style: none;
+
+    @media screen and (max-width: 768px){
+        justify-content: space-evenly;
+
+        
+    }
     
 `
 
@@ -48,6 +70,11 @@ export const ItemLista = styled(Link)`
         color: #004bae;
     }
     
+    @media screen and (max-width: 768px){
+        font-size: 4vw;
+
+        
+    }
 `
 
 export const SwipeSlide = styled(SwiperSlide)`
@@ -150,6 +177,12 @@ export const Sobre = styled.div`
     padding-right: 2.5%;
     width: 40%;
     text-align: justify;
+
+    @media screen and (max-width: 768px){
+        font-size: 2vw;
+
+        
+    }
     
 `
 
@@ -167,6 +200,7 @@ export const Lista2 = styled.ul`
     color: white;
     height: 70%;
     justify-content: space-evenly;
+
     
 `
 
@@ -177,6 +211,8 @@ padding-left: 2.5%;
 padding-right: 2.5%;
 padding-top: 2.5%;
 
+
+
 `
 
 export const TituloRodape = styled.h2`
@@ -185,9 +221,13 @@ export const TituloRodape = styled.h2`
     margin-top: 10%;
     margin-bottom: 10%;
     font-weight: bolder;
-    
     margin-top: 0;
     margin-bottom: 0;
+
+    @media screen and (max-width: 768px){
+        font-size: 3vw;
+        
+    }
 `
 
 
@@ -199,6 +239,28 @@ export const ItemLista2 = styled(Link)`
         color: #004bae;
     }
     
+    @media screen and (max-width: 768px){
+        font-size: 2vw;
+        
+    }
+`
+export const Endereco = styled.div`
+display: flex;
+margin-top: 10%;
+
+
+@media screen and (max-width: 768px){
+        font-size: 2vw;
+        
+    }
+    
+`
+
+export const EnderecoTexto = styled.p`
+    @media screen and (max-width: 768px){
+        font-size: 2vw;
+        
+    }
 `
 
 export const ContatosEndereco = styled.div`
@@ -209,22 +271,23 @@ padding-right: 5%;
 padding-top: 2.5%;
 `
 
-export const Endereco = styled.div`
-display: flex;
-margin-top: 10%;
-    
-`
 export const Telefone = styled.div`
 display: flex;
 margin-top: 10%;
 align-items: center;
-
+@media screen and (max-width: 768px){
+        font-size: 2vw;
+        
+    }
     
 `
 export const Email = styled.div`
 display: flex;
 margin-top: 10%;
-    
+@media screen and (max-width: 768px){
+        font-size: 2vw;
+        
+    }
 `
 
 export const Secao = styled.h2`

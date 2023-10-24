@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { ContatosEndereco, Divisoria, Email, Endereco, ItemLista2, Lista2, MenuRapido, Rodape, Sobre, Telefone, TituloRodape } from "../pages/styles"
+import { ContatosEndereco, Divisoria, Email, Endereco, EnderecoTexto, ImgLogo, ItemLista2, Lista2, MenuRapido, Rodape, Sobre, Telefone, TituloRodape } from "../pages/styles"
 import logo from "../images/Logo.png"
 import endereco from "../images/pin-de-localizacao.png"
 import telefone from "../images/telefone.png"
@@ -11,7 +11,7 @@ export const NavRodape = () => {
    
         <Rodape>
                 <Sobre>
-                    <img src={logo} />
+                    <ImgLogo src={logo} />
                     <p>A CITILOC é uma empresa especializada em LOCAÇÃO e MONTAGEM de estruturas para eventos, sonorização, notebooks, projetores,
                         grades divisórias e painéis de led. Atendendo suas necessidades em eventos como festas, desfiles, feiras, stands para exposições,
                         congressos e muito mais.</p>
@@ -47,8 +47,8 @@ export const NavRodape = () => {
                         <img src={endereco} />
                         <p>Rua Lorem Ipsum, 1234</p>
                     </Endereco>
-                    <p>Fortaleza/CE</p>
-                    <p>Cep: 60123-456</p>
+                    <EnderecoTexto>Fortaleza/CE</EnderecoTexto>
+                    <EnderecoTexto>Cep: 60123-456</EnderecoTexto>
                     <Link to="https://maps.app.goo.gl/xLcgvBs6z8nvh8y78">Ver no mapa</Link>
                     <Telefone>
                         <img src={telefone} />
@@ -57,7 +57,7 @@ export const NavRodape = () => {
                     <Link to="https://wa.link/y270z1">abrir whatsapp</Link>
                     <Email>
                         <img src={email} />
-                        <p>citiloc@email.com.br</p>
+                        <EnderecoTexto>citiloc@email.com.br</EnderecoTexto>
                     </Email>
                 </ContatosEndereco>
             </Rodape>
