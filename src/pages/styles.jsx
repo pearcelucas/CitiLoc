@@ -198,7 +198,7 @@ export const Rodape = styled.footer`
     display: flex;
     color: white;
     padding-bottom: 1%;
- 
+    margin-bottom: 0;
     
 `
 

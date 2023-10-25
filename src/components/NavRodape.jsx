@@ -54,7 +54,7 @@ export const NavRodape = () => {
                         <ImgRodape src={telefone} />
                         <p>(85) 9999-9999</p>
                     </Telefone>
-                    <LinkRodape to="https://wa.link/y270z1">abrir whatsapp</LinkRodape>
+                    <LinkRodape to="https://wa.me/5585989439495">abrir whatsapp</LinkRodape>
                     <Email>
                         <ImgRodape src={email} />
                         <EnderecoTexto>citiloc@email.com.br</EnderecoTexto>

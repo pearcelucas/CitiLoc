@@ -17,7 +17,7 @@ export const Contatos = () => {
                     <Telefone>
                         <ImgContatos src={telefone} />
                         <TextoContatos> (85) 9999-9999</TextoContatos>
-                        <Link to="https://wa.link/y270z1">Abrir whatsapp</Link>
+                        <Link to="https://wa.me/5585989439495">Abrir whatsapp</Link>
                     </Telefone>
                     <Email>
                         <ImgContatos src={email} />

@@ -5,7 +5,7 @@ import whatsapp from "../images/whatsapp.png"
 
 export const Whats = () => {
     return(
-        <BotaoWhatsapp to="https://wa.link/y270z1">
+        <BotaoWhatsapp to="https://wa.me/5585989439495">
                 <Whatsapp src={whatsapp} />
         </BotaoWhatsapp>
     )

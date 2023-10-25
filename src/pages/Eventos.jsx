@@ -18,7 +18,7 @@ export const Eventos = () => {
                 </DivSlide>
                 <ImgEventos src={evento1} />
                 <ItemDescricao>
-                    <Subtitulo>Evento1</Subtitulo>
+                    <Subtitulo>Evento 1</Subtitulo>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
                 </ItemDescricao>
             </Item>
@@ -28,7 +28,7 @@ export const Eventos = () => {
                 </DivSlide>
                 <ImgEventos src={evento2} />
                 <ItemDescricao>
-                    <Subtitulo>Evento1</Subtitulo>
+                    <Subtitulo>Evento 2</Subtitulo>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
                 </ItemDescricao>
             </Item>
@@ -38,7 +38,7 @@ export const Eventos = () => {
                 </DivSlide>
                 <ImgEventos src={evento3} />
                 <ItemDescricao>
-                    <Subtitulo>Evento1</Subtitulo>
+                    <Subtitulo>Evento 3</Subtitulo>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
                 </ItemDescricao>
             </Item>
@@ -48,7 +48,7 @@ export const Eventos = () => {
                 </DivSlide>
                 <ImgEventos src={evento1} />
                 <ItemDescricao>
-                    <Subtitulo>Evento1</Subtitulo>
+                    <Subtitulo>Evento 4</Subtitulo>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
                 </ItemDescricao>
             </Item>
@@ -58,7 +58,7 @@ export const Eventos = () => {
                 </DivSlide>
                 <ImgEventos src={evento1} />
                 <ItemDescricao>
-                    <Subtitulo>Evento1</Subtitulo>
+                    <Subtitulo>Evento 5</Subtitulo>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
                 </ItemDescricao>
             </Item>
@@ -68,7 +68,7 @@ export const Eventos = () => {
                 </DivSlide>
                 <ImgEventos src={evento1} />
                 <ItemDescricao>
-                    <Subtitulo>Evento1</Subtitulo>
+                    <Subtitulo>Evento 6</Subtitulo>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
                 </ItemDescricao>
             </Item>
