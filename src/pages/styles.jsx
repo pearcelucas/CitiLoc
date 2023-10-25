@@ -162,6 +162,18 @@ font-size: 3vw;
     }
 `
 
+export const ParceirosContainer = styled.div`
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+`
+
+
+
 export const Whatsapp = styled.img`
     width: 100%;
 `
