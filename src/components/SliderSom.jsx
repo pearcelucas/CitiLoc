@@ -15,13 +15,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
 
-    const estiloImagem = {
-      width: '100%', // Tamanho desejado em pixels
-    //   height: '80%',
-    };
-
-
-
+  
 export const SliderSom = () => {
   return (
     <Swiper
@@ -36,28 +30,28 @@ export const SliderSom = () => {
       
     >
       <SwiperSlide>
-        <ImagemSlider style={estiloImagem} src={imagem1} alt="Imagem 1" />
+        <ImagemSlider src={imagem1} alt="Imagem 1" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider style={estiloImagem} src={imagem2} alt="Imagem 2" />
+        <ImagemSlider src={imagem2} alt="Imagem 2" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider style={estiloImagem} src={imagem3} alt="Imagem 3" />
+        <ImagemSlider src={imagem3} alt="Imagem 3" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider style={estiloImagem} src={imagem5} alt="Imagem 5" />
+        <ImagemSlider src={imagem5} alt="Imagem 5" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider style={estiloImagem} src={imagem6} alt="Imagem 6" />
+        <ImagemSlider src={imagem6} alt="Imagem 6" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider style={estiloImagem} src={imagem7} alt="Imagem 7" />
+        <ImagemSlider src={imagem7} alt="Imagem 7" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider style={estiloImagem} src={imagem8} alt="Imagem 8" />
+        <ImagemSlider src={imagem8} alt="Imagem 8" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider style={estiloImagem} src={imagem9} alt="Imagem 9" />
+        <ImagemSlider src={imagem9} alt="Imagem 9" />
       </SwiperSlide>
     </Swiper>
   )

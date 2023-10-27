@@ -84,8 +84,12 @@ export const ItemLista = styled(Link)`
 export const ImagemSlider = styled.img`
     width: 100%;
     max-height: 30vw;
+    display: flex;
 
-    
+    @media screen and (max-width: 768px){
+            max-height: 100vw;
+    }
+
 `
 
 export const Cards = styled.div`
@@ -351,8 +355,26 @@ justify-content: center;
 margin: 5% 10%;
 border: 1px solid black;
 
-   
+@media screen and (max-width: 768px){
+        flex-direction: column;
+        align-items: center;
+        
+    }
+  
+
 `
+
+export const SlideFoto = styled.div`
+width: 40%;
+height: auto;
+
+@media screen and (max-width: 768px){
+   width: 100%;
+   height: auto;
+}
+
+`
+
 
 export const ItemDescricao = styled.div`
 background-color: #dfe2f5;
@@ -361,7 +383,7 @@ padding: 5%;
 font-size: 2vw;
  
 @media screen and (max-width: 768px){
-        height:30%;
+        height: auto;
         width: 90%;
     }
 `
@@ -455,11 +477,5 @@ export const ContatosMapa = styled.div`
         font-size: 2vw;
     }
     `
-    export const SlideFoto = styled.div`
-    width: 40%;
-
-    @media screen and (max-width: 768px){
-        max-width: 100%;}
-
-    `
+   
 

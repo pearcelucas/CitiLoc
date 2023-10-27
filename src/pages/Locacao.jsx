@@ -14,8 +14,8 @@ export const Locacao = () => {
       <Secao>Locação</Secao>
       <Item>
         <SlideFoto>
-        <SliderSom/>
-        {/* <ImgItem src={fotoCardSom} alt="" /> */}
+          <SliderSom />
+          {/* <ImgItem src={fotoCardSom} alt="" /> */}
         </SlideFoto>
         <ItemDescricao>
           <Subtitulo>Sonorização</Subtitulo>
@@ -25,25 +25,25 @@ export const Locacao = () => {
         </ItemDescricao>
       </Item>
       <Item>
-      <SlideFoto>
-        <SliderEstrutura/>
-        {/* <ImgItem src={fotoCardSom} alt="" /> */}
+        <SlideFoto>
+          <SliderEstrutura />
+          {/* <ImgItem src={fotoCardSom} alt="" /> */}
         </SlideFoto>
         {/* <ImgItem src={fotoportico} alt="" /> */}
-          <ItemDescricao>
+        <ItemDescricao>
           <Subtitulo>Estruturas</Subtitulo>
           <TextoDescricao>Aluguel e montagem de estruturas metalicas de alumino para diversos formatos de projetos, portico, palcos, banners, backdrops, stands e para Fixação de Iluminação e paineis de LED.</TextoDescricao>
           <TextoDescricao>Contamos com uma diversidade de estruturas na linha Q15, Box Q20, Q25, Q30 e Q50 para grandes projetos e montagens de Shows.</TextoDescricao>
           <TextoDescricao>Palcos, pisos, coberturas e praticáveis com tamanhos variados de acordo com a sua necessidade excelente acabamento!
-</TextoDescricao>
+          </TextoDescricao>
         </ItemDescricao>
       </Item>
       <Item>
-      <SlideFoto>
-        <SliderEstrutura/>
-        {/* <ImgItem src={fotoCardSom} alt="" /> */}
+        <SlideFoto>
+          <SliderEstrutura />
+          {/* <ImgItem src={fotoCardSom} alt="" /> */}
         </SlideFoto>
-      <ItemDescricao>
+        <ItemDescricao>
           <Subtitulo>Imagem</Subtitulo>
           <TextoDescricao>A Citiloc é especializada em sonorização para eventos sociais, shows, convenções, eventos corporativos.</TextoDescricao>
           <TextoDescricao>Todos os nossos caixas de som para locação são testados, instalados e retirados por profissionais altamente qualificados.</TextoDescricao>
@@ -51,9 +51,9 @@ export const Locacao = () => {
         </ItemDescricao>
       </Item>
       <Item>
-      <SlideFoto>
-        <SliderEstrutura/>
-        {/* <ImgItem src={fotoCardSom} alt="" /> */}
+        <SlideFoto>
+          <SliderEstrutura />
+          {/* <ImgItem src={fotoCardSom} alt="" /> */}
         </SlideFoto>
         <ItemDescricao>
           <Subtitulo>NOTEBOOKS</Subtitulo>
@@ -63,9 +63,9 @@ export const Locacao = () => {
         </ItemDescricao>
       </Item>
       <Item>
-      <SlideFoto>
-        <SliderEstrutura/>
-        {/* <ImgItem src={fotoCardSom} alt="" /> */}
+        <SlideFoto>
+          <SliderEstrutura />
+          {/* <ImgItem src={fotoCardSom} alt="" /> */}
         </SlideFoto>
         <ItemDescricao>
           <Subtitulo>Unifilas, disciplinadores e grades</Subtitulo>
@@ -75,9 +75,9 @@ export const Locacao = () => {
         </ItemDescricao>
       </Item>
       <Item>
-      <SlideFoto>
-        <SliderEstrutura/>
-        {/* <ImgItem src={fotoCardSom} alt="" /> */}
+        <SlideFoto>
+          <SliderEstrutura />
+          {/* <ImgItem src={fotoCardSom} alt="" /> */}
         </SlideFoto>
         <ItemDescricao>
           <Subtitulo>Outros</Subtitulo>
