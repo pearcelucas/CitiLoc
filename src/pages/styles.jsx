@@ -95,6 +95,7 @@ max-width: 80%;
 gap: 5%;
 justify-content: center;
 margin-top: 5%;
+
 `
 
 export const Card = styled.div`
@@ -163,13 +164,14 @@ font-size: 3vw;
 `
 
 export const ParceirosContainer = styled.div`
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
     display: flex;
     justify-content: space-between;
     gap: 5%;
+    background-color: #004bae ;
 `
 
 
@@ -349,12 +351,7 @@ justify-content: center;
 margin: 5% 10%;
 border: 1px solid black;
 
-@media screen and (max-width: 768px){
-        flex-direction: column;
-            
-    }
-
-    
+   
 `
 
 export const ItemDescricao = styled.div`
@@ -367,7 +364,6 @@ font-size: 2vw;
         height:30%;
         width: 90%;
     }
-
 `
 
 export const ImgItem = styled.img`
@@ -391,7 +387,6 @@ export const ImgEventos = styled.img`
         
     }
 
-    
 `
 
 export const FaleConosco = styled.div`
@@ -450,6 +445,21 @@ export const ContatosMapa = styled.div`
         width: 50%;
            @media screen and (max-width: 768px){
         overflow: hidden ;
-
     }
     `
+    export const TextoDescricao = styled.p`
+        margin-top: 3%;
+        font-size: 1.5vw;
+
+        @media screen and (max-width: 768px){
+        font-size: 2vw;
+    }
+    `
+    export const SlideFoto = styled.div`
+    width: 40%;
+
+    @media screen and (max-width: 768px){
+        max-width: 100%;}
+
+    `
+

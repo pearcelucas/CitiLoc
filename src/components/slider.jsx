@@ -19,17 +19,17 @@ import 'swiper/css/autoplay';
 
 export const Slide = () => {
   return (
+    
     <Swiper
-      modules={[Navigation, Pagination, Autoplay]}
-      spaceBetween={0}
-      slidesPerView={4}
-      autoplay={{ delay: 1500 }}
-      navigation
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
-        
-      
-    >
+    modules={[Navigation, Pagination, Autoplay]}
+    spaceBetween={0}
+    slidesPerView={1}
+    autoplay={{ delay: 1500 }}
+    navigation
+    pagination={{ clickable: true }}
+    scrollbar={{ draggable: true }}
+ 
+  >
       <SwiperSlide>
         <ImagemSlider src={imagem1} alt="Imagem 1" />
       </SwiperSlide>

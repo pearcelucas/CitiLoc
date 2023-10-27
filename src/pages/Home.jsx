@@ -1,9 +1,9 @@
 
 import { Slide } from "../components/slider"
-import { Botao, BotaoWhatsapp, Card, Cards, Container, DescricaoCard, DivBotao, ImagemCard, ParceirosContainer, Titulo, TituloCard, Whatsapp } from "./styles"
+import { Botao, Card, Cards, Container, DescricaoCard, DivBotao, ImagemCard, ParceirosContainer, Titulo, TituloCard} from "./styles"
 import fotoCard from "../images/locacao-de-box-truss-em-ilha-comprida.jpg"
 import fotoCardSom from "../images/som,.webp"
-import fotoCard3 from "../images/images (2).jpeg"
+import fotoCard3 from "../images/BackDrop.jpeg"
 import { NavRodape } from "../components/NavRodape"
 import { Whats } from "../components/BotaoWhatsapp"
 import fotoParceiro1 from "../images/Ceará_Sporting_Club_logo.svg.png"
@@ -22,19 +22,19 @@ export const Home = () => {
                 <Card>
                     <TituloCard>Estruturas para eventos</TituloCard>
                     <ImagemCard src={fotoCard} />
-                    <DescricaoCard>Estrturas Q30, palcos, praticáveis, grades etc</DescricaoCard>
+                    <DescricaoCard>Estrturas, palcos, praticáveis, disciplinadores, unifilas etc</DescricaoCard>
 
                 </Card>
                 <Card>
                     <TituloCard>Sonorização</TituloCard>
                     <ImagemCard src={fotoCardSom} />
-                    <DescricaoCard>Caixas, mesas de som, microfones e demais perifericos </DescricaoCard>
+                    <DescricaoCard>Caixas, mesas de som, microfones, demais perifericos etc </DescricaoCard>
 
                 </Card>
                 <Card>
-                    <TituloCard>Notebooks e projetores</TituloCard>
+                    <TituloCard>Informática e imagem</TituloCard>
                     <ImagemCard src={fotoCard3} />
-                    <DescricaoCard>Notebooks, projetores, periféricos etc</DescricaoCard>
+                    <DescricaoCard>Notebooks, painéis de LED, projetores, periféricos etc</DescricaoCard>
                 </Card>
             </Cards>
             <DivBotao>
