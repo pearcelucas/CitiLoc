@@ -8,7 +8,7 @@ import imagem6 from "../images/Palco.jpeg";
 import imagem7 from "../images/Portico.jpeg";
 import imagem8 from "../images/Tenda.jpeg";
 import imagem9 from "../images/Unifila.jpeg";
-import { ImagemSlider, ImagemSliderHome, ImagemSliderHomeHome } from "../pages/styles";
+import { ImagemSliderHome} from "../pages/styles";
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';

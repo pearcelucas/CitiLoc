@@ -1,4 +1,4 @@
-import { DivSlide, ImgEventos, ImgItem, Item, ItemDescricao, Secao, Subtitulo, } from "./styles"
+import { DivSlide, ImgEventos, Item, ItemDescricao, Secao, Subtitulo, } from "./styles"
 import { Slide } from "../components/slider"
 import { NavRodape } from "../components/NavRodape"
 import { Whats } from "../components/BotaoWhatsapp"

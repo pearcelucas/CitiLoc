@@ -6,7 +6,6 @@ import telefone from "../images/telefoneAzul.png"
 import email from "../images/gmail.png"
 import instagram from "../images/instagram.png"
 import { Link } from "react-router-dom"
-import whatsapp from "../images/whatsapp.png"
 export const Contatos = () => {
     return (
         <>

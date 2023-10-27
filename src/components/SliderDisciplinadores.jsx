@@ -5,7 +5,6 @@ import imagem2 from "../images/unifilas2.jpeg";
 import imagem3 from "../images/disciplinadores.jpeg";
 import imagem6 from "../images/grades.jpeg";
 import imagem7 from "../images/entrada castelao.jpeg";
-
 import { ImagemSlider } from "../pages/styles";
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css/navigation';
