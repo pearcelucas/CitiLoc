@@ -7,6 +7,9 @@ import { Slide } from "../components/slider"
 import Slider from "react-slick"
 import { SliderSom } from "../components/SliderSom"
 import { SliderEstrutura } from "../components/SliderEstrutura"
+import { SliderImagem } from "../components/SliderImagem"
+import { SliderNotebooks } from "../components/SliderNotebook"
+import { SliderDisciplinadores } from "../components/SliderDisciplinadores"
 
 export const Locacao = () => {
   return (
@@ -40,9 +43,8 @@ export const Locacao = () => {
       </Item>
       <Item>
         <SlideFoto>
-          <SliderEstrutura />
-          {/* <ImgItem src={fotoCardSom} alt="" /> */}
-        </SlideFoto>
+          <SliderImagem />
+                 </SlideFoto>
         <ItemDescricao>
           <Subtitulo>Imagem</Subtitulo>
           <TextoDescricao>A Citiloc é especializada em sonorização para eventos sociais, shows, convenções, eventos corporativos.</TextoDescricao>
@@ -52,8 +54,7 @@ export const Locacao = () => {
       </Item>
       <Item>
         <SlideFoto>
-          <SliderEstrutura />
-          {/* <ImgItem src={fotoCardSom} alt="" /> */}
+          <SliderNotebooks />
         </SlideFoto>
         <ItemDescricao>
           <Subtitulo>NOTEBOOKS</Subtitulo>
@@ -64,7 +65,7 @@ export const Locacao = () => {
       </Item>
       <Item>
         <SlideFoto>
-          <SliderEstrutura />
+          <SliderDisciplinadores />
           {/* <ImgItem src={fotoCardSom} alt="" /> */}
         </SlideFoto>
         <ItemDescricao>

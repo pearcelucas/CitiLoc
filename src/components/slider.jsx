@@ -8,7 +8,7 @@ import imagem6 from "../images/Palco.jpeg";
 import imagem7 from "../images/Portico.jpeg";
 import imagem8 from "../images/Tenda.jpeg";
 import imagem9 from "../images/Unifila.jpeg";
-import { ImagemSlider } from "../pages/styles";
+import { ImagemSlider, ImagemSliderHome, ImagemSliderHomeHome } from "../pages/styles";
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -31,28 +31,28 @@ export const Slide = () => {
  
   >
       <SwiperSlide>
-        <ImagemSlider src={imagem1} alt="Imagem 1" />
+        <ImagemSliderHome src={imagem1} alt="Imagem 1" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider src={imagem2} alt="Imagem 2" />
+        <ImagemSliderHome src={imagem2} alt="Imagem 2" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider src={imagem3} alt="Imagem 3" />
+        <ImagemSliderHome src={imagem3} alt="Imagem 3" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider src={imagem5} alt="Imagem 5" />
+        <ImagemSliderHome src={imagem5} alt="Imagem 5" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider src={imagem6} alt="Imagem 6" />
+        <ImagemSliderHome src={imagem6} alt="Imagem 6" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider src={imagem7} alt="Imagem 7" />
+        <ImagemSliderHome src={imagem7} alt="Imagem 7" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider src={imagem8} alt="Imagem 8" />
+        <ImagemSliderHome src={imagem8} alt="Imagem 8" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider src={imagem9} alt="Imagem 9" />
+        <ImagemSliderHome src={imagem9} alt="Imagem 9" />
       </SwiperSlide>
     </Swiper>
   )

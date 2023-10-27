@@ -1,11 +1,11 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import imagem1 from "../images/som,.webp";
-import imagem2 from "../images/xr18.webp";
-import imagem3 from "../images/rcl715jpg.jpg";
-import imagem5 from "../images/pedestal.webp";
-import imagem6 from "../images/cachimbos.jpeg";
-import imagem7 from "../images/microfones.jpeg";
+import imagem1 from "../images/BackDrop.jpeg";
+import imagem2 from "../images/LED.jpeg";
+import imagem3 from "../images/tv.webp";
+import imagem6 from "../images/projetor.jpeg";
+import imagem7 from "../images/painel-led-alta-definicao-01.jpg";
+
 import { ImagemSlider } from "../pages/styles";
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css/navigation';
@@ -13,8 +13,9 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
 
-  
-export const SliderSom = () => {
+
+
+export const SliderImagem = () => {
   return (
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
@@ -28,22 +29,19 @@ export const SliderSom = () => {
       
     >
       <SwiperSlide>
-        <ImagemSlider src={imagem1} alt="Imagem 1" />
+        <ImagemSlider  src={imagem1} alt="Imagem 1" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider src={imagem2} alt="Imagem 2" />
+        <ImagemSlider  src={imagem2} alt="Imagem 2" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider src={imagem3} alt="Imagem 3" />
+        <ImagemSlider  src={imagem3} alt="Imagem 3" />
+      </SwiperSlide>
+        <SwiperSlide>
+        <ImagemSlider  src={imagem6} alt="Imagem 6" />
       </SwiperSlide>
       <SwiperSlide>
-        <ImagemSlider src={imagem5} alt="Imagem 5" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <ImagemSlider src={imagem6} alt="Imagem 6" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <ImagemSlider src={imagem7} alt="Imagem 7" />
+        <ImagemSlider  src={imagem7} alt="Imagem 7" />
       </SwiperSlide>
     </Swiper>
   )

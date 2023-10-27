@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import imagem1 from "../images/BackDrop.jpeg";
+import imagem1 from "../images/notebooks.jpg";
 import imagem2 from "../images/Bar.jpeg";
 import imagem3 from "../images/Castelao.jpeg";
 import imagem5 from "../images/Estrutura Metalica.jpeg";
@@ -17,7 +17,7 @@ import 'swiper/css/autoplay';
 
 
 
-export const SliderEstrutura = () => {
+export const SliderNotebooks = () => {
   return (
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
@@ -33,24 +33,7 @@ export const SliderEstrutura = () => {
       <SwiperSlide>
         <ImagemSlider  src={imagem1} alt="Imagem 1" />
       </SwiperSlide>
-      <SwiperSlide>
-        <ImagemSlider  src={imagem2} alt="Imagem 2" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <ImagemSlider  src={imagem3} alt="Imagem 3" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <ImagemSlider  src={imagem5} alt="Imagem 5" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <ImagemSlider  src={imagem6} alt="Imagem 6" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <ImagemSlider  src={imagem7} alt="Imagem 7" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <ImagemSlider  src={imagem8} alt="Imagem 8" />
-      </SwiperSlide>
+      
     </Swiper>
   )
 }

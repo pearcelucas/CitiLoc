@@ -80,6 +80,13 @@ export const ItemLista = styled(Link)`
     }
 `
 
+export const ImagemSliderHome = styled.img`
+    width: 100%;
+    max-height: 30vw;
+    display: flex;
+
+ 
+`
 
 export const ImagemSlider = styled.img`
     width: 100%;
@@ -91,6 +98,8 @@ export const ImagemSlider = styled.img`
     }
 
 `
+
+
 
 export const Cards = styled.div`
 display: flex;
