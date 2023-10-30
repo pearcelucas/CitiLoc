@@ -5,6 +5,8 @@ import { Whats } from "../components/BotaoWhatsapp"
 import evento1 from "../images/Castelao.jpeg"
 import evento2 from "../images/Palco.jpeg"
 import evento3 from "../images/Tenda.jpeg"
+import { SliderCastelao } from "../components/SliderCastelao"
+import { SliderUece } from "../components/Slider UECE"
 
 <images />
 
@@ -14,65 +16,24 @@ export const Eventos = () => {
             <Secao>Eventos</Secao>
             <Item>
                 <DivSlide>
-                    <Slide />
+                    <SliderCastelao/>
                 </DivSlide>
                 <ImgEventos src={evento1} />
                 <ItemDescricao>
                     <Subtitulo>Evento 1</Subtitulo>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
+                    <p>Atendemos aos jogos dos times cearenses na Arena Castelão e no estaio Presidente Vargas.</p>
                 </ItemDescricao>
             </Item>
             <Item>
                 <DivSlide>
-                    <Slide />
+                    <SliderUece/>
                 </DivSlide>
                 <ImgEventos src={evento2} />
                 <ItemDescricao>
-                    <Subtitulo>Evento 2</Subtitulo>
+                    <Subtitulo>Encontros Universitário UECE</Subtitulo>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
                 </ItemDescricao>
             </Item>
-            <Item>
-                <DivSlide>
-                    <Slide />
-                </DivSlide>
-                <ImgEventos src={evento3} />
-                <ItemDescricao>
-                    <Subtitulo>Evento 3</Subtitulo>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
-                </ItemDescricao>
-            </Item>
-            <Item>
-                <DivSlide>
-                    <Slide />
-                </DivSlide>
-                <ImgEventos src={evento1} />
-                <ItemDescricao>
-                    <Subtitulo>Evento 4</Subtitulo>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
-                </ItemDescricao>
-            </Item>
-            <Item>
-                <DivSlide>
-                    <Slide />
-                </DivSlide>
-                <ImgEventos src={evento1} />
-                <ItemDescricao>
-                    <Subtitulo>Evento 5</Subtitulo>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
-                </ItemDescricao>
-            </Item>
-            <Item>
-                <DivSlide>
-                    <Slide />
-                </DivSlide>
-                <ImgEventos src={evento1} />
-                <ItemDescricao>
-                    <Subtitulo>Evento 6</Subtitulo>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim quaerat ex expedita possimus cupiditate illum rem, blanditiis aperiam non beatae? Voluptatibus non magnam cum. Placeat voluptatibus rem laborum laudantium.</p>
-                </ItemDescricao>
-            </Item>
-
             <Whats />
             <NavRodape />
 

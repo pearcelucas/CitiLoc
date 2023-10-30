@@ -54,9 +54,9 @@ export const Locacao = () => {
         </SlideFoto>
         <ItemDescricao>
           <Subtitulo>NOTEBOOKS</Subtitulo>
-          <TextoDescricao>A Citiloc é especializada em sonorização para eventos sociais, shows, convenções, eventos corporativos.</TextoDescricao>
-          <TextoDescricao>Todos os nossos caixas de som para locação são testados, instalados e retirados por profissionais altamente qualificados.</TextoDescricao>
-          <TextoDescricao>Possuimos caixas amplificadoras, mesas de controle, microfones, retornos e muitos outros equipamentos fazem parte da lista que é essencial para que seu evento possua o máximo de qualidade de som.</TextoDescricao>
+          <TextoDescricao>Seja uma demanda de curto ou longo prazo, a nossa solução de locação é indicada para empresas ou eventos.</TextoDescricao>
+          <TextoDescricao>Dispomos de notebooks e periféricos novos, e com a configuração adequada para seu evento.</TextoDescricao>
+          <TextoDescricao></TextoDescricao>
         </ItemDescricao>
       </Item>
       <Item>
@@ -66,9 +66,9 @@ export const Locacao = () => {
         </SlideFoto>
         <ItemDescricao>
           <Subtitulo>Unifilas, disciplinadores e grades</Subtitulo>
-          <TextoDescricao>A Citiloc é especializada em sonorização para eventos sociais, shows, convenções, eventos corporativos.</TextoDescricao>
-          <TextoDescricao>Todos os nossos caixas de som para locação são testados, instalados e retirados por profissionais altamente qualificados.</TextoDescricao>
-          <TextoDescricao>Possuimos caixas amplificadoras, mesas de controle, microfones, retornos e muitos outros equipamentos fazem parte da lista que é essencial para que seu evento possua o máximo de qualidade de som.</TextoDescricao>
+          <TextoDescricao></TextoDescricao>
+          <TextoDescricao></TextoDescricao>
+          <TextoDescricao></TextoDescricao>
         </ItemDescricao>
       </Item>
       <Item>
@@ -78,9 +78,9 @@ export const Locacao = () => {
         </SlideFoto>
         <ItemDescricao>
           <Subtitulo>Outros</Subtitulo>
-          <TextoDescricao>A Citiloc é especializada em sonorização para eventos sociais, shows, convenções, eventos corporativos.</TextoDescricao>
-          <TextoDescricao>Todos os nossos caixas de som para locação são testados, instalados e retirados por profissionais altamente qualificados.</TextoDescricao>
-          <TextoDescricao>Possuimos caixas amplificadoras, mesas de controle, microfones, retornos e muitos outros equipamentos fazem parte da lista que é essencial para que seu evento possua o máximo de qualidade de som.</TextoDescricao>
+          <TextoDescricao>Gelágua, cadeiras, etc</TextoDescricao>
+          <TextoDescricao></TextoDescricao>
+          <TextoDescricao></TextoDescricao>
         </ItemDescricao>
       </Item>
       <Whats />
