@@ -20,7 +20,7 @@ export const Eventos = () => {
                 </DivSlide>
                 <ImgEventos src={evento1} />
                 <ItemDescricao>
-                    <Subtitulo>Evento 1</Subtitulo>
+                    <Subtitulo>Jogos dos times cearenses</Subtitulo>
                     <p>Atendemos aos jogos dos times cearenses na Arena Castelão e no estaio Presidente Vargas.</p>
                 </ItemDescricao>
             </Item>
