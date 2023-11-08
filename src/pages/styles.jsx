@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
 import { styled } from "styled-components";
+import BackgroungImg from "../images/background2.jpg"
 
 
 export const Container = styled.div`
-    background-color: white;
+    background-image: url(${BackgroungImg});
+    background-size: auto;
+    
     
 `
 
@@ -18,8 +21,10 @@ font-size: 3vw;
 export const Subtitulo = styled.h2`
     font-size: 3vw;
     background-color: #dfe2f5;
-    padding-top: 1%;
+   
     padding-left: 1%;
+    padding-top: 0;
+    margin-top: 0;
     
 
 
@@ -89,13 +94,17 @@ export const ImagemSliderHome = styled.img`
 `
 
 export const ImagemSlider = styled.img`
+    max-height: 20vw;
     width: 100%;
-    max-height: 30vw;
-    display: flex;
+    object-fit: contain;
+    background-color: white;
+    
 
     @media screen and (max-width: 768px){
-            max-height: 100vw;
-    }
+        max-height: 40vw;
+        width: 100%;
+        object-fit: contain;
+        background-color: white;}
 
 `
 
@@ -184,7 +193,7 @@ export const ParceirosContainer = styled.div`
     display: flex;
     justify-content: space-between;
     gap: 5%;
-    background-color: #004bae ;
+    background-image: url(${BackgroungImg});
 `
 
 
@@ -314,6 +323,8 @@ export const LinkRodape = styled(Link)`
     }
 `
 export const ImgRodape = styled.img`
+    padding-right: 2%;
+    width: 1.5vw;
      @media screen and (max-width: 768px){
         width: 2vw;
         
@@ -376,6 +387,7 @@ border: 1px solid black;
 export const SlideFoto = styled.div`
 width: 40%;
 height: auto;
+background-color: white;
 
 @media screen and (max-width: 768px){
    width: 100%;
@@ -388,7 +400,7 @@ height: auto;
 export const ItemDescricao = styled.div`
 background-color: #dfe2f5;
 width: 60%;
-padding: 5%;
+padding: 2% 5%;
 font-size: 2vw;
  
 @media screen and (max-width: 768px){
@@ -407,8 +419,8 @@ export const ImgItem = styled.img`
     }
     
 
-` 
-    
+`
+
 export const ImgEventos = styled.img`
     width: 30%;
     padding-right: 5%;
@@ -447,21 +459,21 @@ export const ContatosMapa = styled.div`
    
    `
 
-   export const ImgContatos = styled.img`
+export const ImgContatos = styled.img`
     width: 10%;
    `
-   export const TextoContatos = styled.p`
+export const TextoContatos = styled.p`
     font-size: 2vw;
     align-self: center;
    `
 
-  export const LinkContatos = styled(Link)`
+export const LinkContatos = styled(Link)`
     text-decoration: none;
     color: black;
     align-self: center;
     font-size: 2vw;
   `
-    export const DivSlide = styled.div`
+export const DivSlide = styled.div`
         width: 50%;
 
 
@@ -472,13 +484,13 @@ export const ContatosMapa = styled.div`
 
     `
 
-    export const MapContainer = styled.div`
+export const MapContainer = styled.div`
         width: 50%;
            @media screen and (max-width: 768px){
         overflow: hidden ;
     }
     `
-    export const TextoDescricao = styled.p`
+export const TextoDescricao = styled.p`
         margin-top: 3%;
         font-size: 1.5vw;
 
@@ -486,5 +498,5 @@ export const ContatosMapa = styled.div`
         font-size: 2vw;
     }
     `
-   
+
 

@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import imagem1 from "../images/BackDrop.jpeg";
-import imagem2 from "../images/LED.jpeg";
-import imagem3 from "../images/tv.webp";
-import imagem6 from "../images/projetor.jpeg";
-import imagem7 from "../images/painel-led-alta-definicao-01.jpg";
+import imagem1 from "../images/Estrutura/BackDrop.jpeg";
+import imagem2 from "../images/Imagem/WhatsApp Image 2023-11-08 at 13.53.17.jpeg";
+import imagem3 from "../images/Imagem/tv.webp";
+import imagem6 from "../images/Imagem/projetor.jpeg";
+
 
 import { ImagemSlider } from "../pages/styles";
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
@@ -40,9 +40,7 @@ export const SliderImagem = () => {
         <SwiperSlide>
         <ImagemSlider  src={imagem6} alt="Imagem 6" />
       </SwiperSlide>
-      <SwiperSlide>
-        <ImagemSlider  src={imagem7} alt="Imagem 7" />
-      </SwiperSlide>
+     
     </Swiper>
   )
 }

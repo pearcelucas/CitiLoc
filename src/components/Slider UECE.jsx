@@ -1,10 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import imagem1 from "../images/UECE.jpg";
-import imagem2 from "../images/Castelao.jpeg";
-import imagem3 from "../images/escadas castelao.jpeg";
-import imagem6 from "../images/grades.jpeg";
-import imagem7 from "../images/entrada castelao.jpeg";
+
 import { ImagemSlider } from "../pages/styles";
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css/navigation';

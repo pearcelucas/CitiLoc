@@ -1,9 +1,9 @@
 
 import { Slide } from "../components/slider"
 import { Botao, Card, Cards, Container, DescricaoCard, DivBotao, ImagemCard, ParceirosContainer, Titulo, TituloCard} from "./styles"
-import fotoCard from "../images/locacao-de-box-truss-em-ilha-comprida.jpg"
-import fotoCardSom from "../images/som,.webp"
-import fotoCard3 from "../images/BackDrop.jpeg"
+import fotoCard from "../images/Estrutura/locacao-de-box-truss-em-ilha-comprida.jpg"
+import fotoCardSom from "../images/Som/som,.webp"
+import fotoCard3 from "../images/Estrutura/BackDrop.jpeg"
 import { NavRodape } from "../components/NavRodape"
 import { Whats } from "../components/BotaoWhatsapp"
 import fotoParceiro1 from "../images/Ceará_Sporting_Club_logo.svg.png"

@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import imagem1 from "../images/Unifila.jpeg";
-import imagem2 from "../images/unifilas2.jpeg";
-import imagem3 from "../images/disciplinadores.jpeg";
-import imagem6 from "../images/grades.jpeg";
-import imagem7 from "../images/entrada castelao.jpeg";
+import imagem1 from "../images/Grades/Unifila.jpeg";
+import imagem2 from "../images/Grades/unifilas2.jpeg";
+import imagem3 from "../images/Grades/disciplinadores.jpeg";
+import imagem6 from "../images/Grades/grades.jpeg";
+import imagem7 from "../images/Grades/entrada castelao.jpeg";
 import { ImagemSlider } from "../pages/styles";
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css/navigation';

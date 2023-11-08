@@ -1,9 +1,8 @@
 
 import { ContatosEndereco, Divisoria, Email, Endereco, EnderecoTexto, ImgLogo, ImgRodape, ItemLista2, LinkRodape, Lista2, MenuRapido, Rodape, Sobre, Telefone, TituloRodape } from "../pages/styles"
 import logo from "../images/Logo.png"
-
-import telefone from "../images/telefone.png"
-import email from "../images/email.png"
+import telefone from "../images/Icones/whatsapp-icon.png"
+import email from "../images/Icones/mail.png"
 
 
 export const NavRodape = () => {

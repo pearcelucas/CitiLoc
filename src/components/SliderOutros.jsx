@@ -1,10 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import imagem1 from "../images/bancos.jpeg";
-import imagem2 from "../images/LED.jpeg";
-import imagem3 from "../images/tv.webp";
-import imagem6 from "../images/projetor.jpeg";
-import imagem7 from "../images/painel-led-alta-definicao-01.jpg";
+import imagem1 from "../images/Outros/bancos.jpeg";
 import { ImagemSlider } from "../pages/styles";
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css/navigation';
