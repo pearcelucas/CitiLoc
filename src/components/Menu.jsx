@@ -63,7 +63,7 @@ export const Menu = () =>{
                 </li>
 
                 <li>
-                    <ItemLista to="/eventos copy">Eventos</ItemLista>
+                    <ItemLista to="/Eventos">Eventos</ItemLista>
                 </li>
                 <li>
                     <ItemLista to="/contatos">Contatos</ItemLista>

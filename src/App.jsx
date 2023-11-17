@@ -21,7 +21,7 @@ export const App = () => {
          <Route path="/" element={<Home/>}/>
          <Route path="Locacao" element={<Locacao/>}/>
          <Route path="contatos" element={<Contatos/>}/>
-         <Route path="eventos copy" element={<CardEventos/>}/>
+         <Route path="eventos" element={<Eventos/>}/>
          <Route path="*" element={<Page404/>}/>
         </Routes>
      </BrowserRouter>
