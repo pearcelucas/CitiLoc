@@ -4,7 +4,7 @@ import ImgCastelão from "../images/estadio-castelao-fortaleza.webp"
 
 const CardWrapper = styled.div`
 margin: 10%;
-  width: 300px;
+  width: 100%;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 
@@ -30,12 +30,24 @@ const Details = styled.div`
 `;
 
 const ExpandedCard = styled(CardWrapper)`
-  width: 400px;
+  width: 100%;
 
   ${Details} {
     display: block;
   }
 `
+
+const ContainerEventos = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+`
+
+const Card = styled.div`
+  width: 25%;
+`
+
+
 
 const CardEventos2 = () => {
   const [isExpanded, setExpanded] = useState(false);
@@ -44,33 +56,172 @@ const CardEventos2 = () => {
     setExpanded(!isExpanded);
   };
 
+
   return (
-   
-    <div >
-      {isExpanded ? (
-        <ExpandedCard>
-          <CardContent>
-            <h3>Título do Card</h3>
-            <FotoCastelao src={ImgCastelão}/>
-            <p>Conteúdo do card. Clique para ver mais detalhes.</p>
-            <Details>
-              <p>Detalhe 1</p>
-              <p>Detalhe 2</p>
-              {/* Adicione mais detalhes conforme necessário */}
-            </Details>
-          </CardContent>
-        </ExpandedCard>
-      ) : (
-        <CardWrapper>
-          <CardContent>
-            <h3>Título do Card</h3>
-            <FotoCastelao src={ImgCastelão}/>
-            <p>Castelão</p>
-          </CardContent>
-        </CardWrapper>
-      )}
-    </div>
-   
+    <ContainerEventos>
+      <Card onClick={handleCardClick}>
+        {isExpanded ? (
+          <ExpandedCard>
+            <CardContent>
+              <h3>Castelão</h3>
+              <FotoCastelao src={ImgCastelão} />
+              <Details>
+                <p>Detalhe 1</p>
+                <p>Detalhe 2</p>
+                {/* Adicione mais detalhes conforme necessário */}
+              </Details>
+            </CardContent>
+          </ExpandedCard>
+        ) : (
+          <CardWrapper>
+            <CardContent>
+              <h3>Castelão</h3>
+              <FotoCastelao src={ImgCastelão} />
+              <p>Clique para ver mais detalhes.</p>
+            </CardContent>
+          </CardWrapper>
+        )}
+      </Card>
+      <Card onClick={handleCardClick}>
+        {isExpanded ? (
+          <ExpandedCard>
+            <CardContent>
+              <h3>Castelão</h3>
+              <FotoCastelao src={ImgCastelão} />
+              <Details>
+                <p>Detalhe 1</p>
+                <p>Detalhe 2</p>
+                {/* Adicione mais detalhes conforme necessário */}
+              </Details>
+            </CardContent>
+          </ExpandedCard>
+        ) : (
+          <CardWrapper>
+            <CardContent>
+              <h3>Castelão</h3>
+              <FotoCastelao src={ImgCastelão} />
+              <p>Clique para ver mais detalhes.</p>
+            </CardContent>
+          </CardWrapper>
+        )}
+      </Card>
+      <Card onClick={handleCardClick}>
+        {isExpanded ? (
+          <ExpandedCard>
+            <CardContent>
+              <h3>Castelão</h3>
+              <FotoCastelao src={ImgCastelão} />
+              <Details>
+                <p>Detalhe 1</p>
+                <p>Detalhe 2</p>
+                {/* Adicione mais detalhes conforme necessário */}
+              </Details>
+            </CardContent>
+          </ExpandedCard>
+        ) : (
+          <CardWrapper>
+            <CardContent>
+              <h3>Castelão</h3>
+              <FotoCastelao src={ImgCastelão} />
+              <p>Clique para ver mais detalhes.</p>
+            </CardContent>
+          </CardWrapper>
+        )}
+      </Card>
+      <Card onClick={handleCardClick}>
+        {isExpanded ? (
+          <ExpandedCard>
+            <CardContent>
+              <h3>Castelão</h3>
+              <FotoCastelao src={ImgCastelão} />
+              <Details>
+                <p>Detalhe 1</p>
+                <p>Detalhe 2</p>
+                {/* Adicione mais detalhes conforme necessário */}
+              </Details>
+            </CardContent>
+          </ExpandedCard>
+        ) : (
+          <CardWrapper>
+            <CardContent>
+              <h3>Castelão</h3>
+              <FotoCastelao src={ImgCastelão} />
+              <p>Clique para ver mais detalhes.</p>
+            </CardContent>
+          </CardWrapper>
+        )}
+      </Card>
+      <Card onClick={handleCardClick}>
+        {isExpanded ? (
+          <ExpandedCard>
+            <CardContent>
+              <h3>Castelão</h3>
+              <FotoCastelao src={ImgCastelão} />
+              <Details>
+                <p>Detalhe 1</p>
+                <p>Detalhe 2</p>
+                {/* Adicione mais detalhes conforme necessário */}
+              </Details>
+            </CardContent>
+          </ExpandedCard>
+        ) : (
+          <CardWrapper>
+            <CardContent>
+              <h3>Castelão</h3>
+              <FotoCastelao src={ImgCastelão} />
+              <p>Clique para ver mais detalhes.</p>
+            </CardContent>
+          </CardWrapper>
+        )}
+      </Card>
+      <Card onClick={handleCardClick}>
+        {isExpanded ? (
+          <ExpandedCard>
+            <CardContent>
+              <h3>Castelão</h3>
+              <FotoCastelao src={ImgCastelão} />
+              <Details>
+                <p>Detalhe 1</p>
+                <p>Detalhe 2</p>
+                {/* Adicione mais detalhes conforme necessário */}
+              </Details>
+            </CardContent>
+          </ExpandedCard>
+        ) : (
+          <CardWrapper>
+            <CardContent>
+              <h3>Castelão</h3>
+              <FotoCastelao src={ImgCastelão} />
+              <p>Clique para ver mais detalhes.</p>
+            </CardContent>
+          </CardWrapper>
+        )}
+      </Card>
+      <Card onClick={handleCardClick}>
+        {isExpanded ? (
+          <ExpandedCard>
+            <CardContent>
+              <h3>Castelão</h3>
+              <FotoCastelao src={ImgCastelão} />
+              <Details>
+                <p>Detalhe 1</p>
+                <p>Detalhe 2</p>
+                {/* Adicione mais detalhes conforme necessário */}
+              </Details>
+            </CardContent>
+          </ExpandedCard>
+        ) : (
+          <CardWrapper>
+            <CardContent>
+              <h3>Castelão</h3>
+              <FotoCastelao src={ImgCastelão} />
+              <p>Clique para ver mais detalhes.</p>
+            </CardContent>
+          </CardWrapper>
+        )}
+      </Card>
+    </ContainerEventos>
+
   );
 };
 
